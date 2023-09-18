@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html>
 	
-	<head>
+	<head >
+		
 		<title> Taylor's website Assignment </title>
+		
+		<!--Taylor Jacobi, September 18th 2023, CMP621A. This website is a bunch of garfunkle that I threw together to show that i can in fact code in html to an extent.-->
+		
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, intial"
+		<meta name="viewport" content="width=device-width, intial">
 		<meta name="author" content="Taylor Jacobi">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<body>
+		
+		
+		
 	<body style="background-color:black;">
-		<font size="6"><center><h1 style="color:red;">Montague Regional High School</h1></center></font>
+		<font size="6" style="color:red;"><b><center><h1 style="background-color:white;">Montague Regional High School</h1></center></font></b>
+		
+
+		<hr/>
+		<center><font size="5" style="color:white;"><p style="background-color:red;"> WELCOME TO MRHS</center></font></p>
+		
+		
+			<br><center><font size="4"><p style="color:white;">MRHS is a school in Montague PEI, Houses grades 10-12, provides a wide selection of courses.RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH</font></center> 
+			
+			
+			<center><img width=900 src="https://miro.medium.com/v2/resize:fit:1200/0*azAMXbLIU1pS9Ryi.jpg" alt="Propaganda" ></center>
+		<hr/>
 	</body>
-	<body>
-		<p style="color:white;">RAAAAAAAAAAAAAAAAAAAHHHHHHHHHHHHHHHHH
-		</p>
