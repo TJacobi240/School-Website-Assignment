@@ -2,7 +2,14 @@
 
 <html>
 	<head>
-			
+		<style>	
+		body {
+		background-image:url('Images/WT\ Loading\ screen.jpg');
+			background-repeat:no-repeat;
+			background-size:cover;
+			background-position:top;
+		}
+		</style>
 		<title> Taylor's website Assignment </title>
 		<!--Taylor Jacobi, September 19th 2023, CMP621A. HTML Website Assignment 2-->
 		
@@ -13,9 +20,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	</head>
-<!---->
-	<body style="background-color:black;">
-		<h1 style="background-color: red;"><center><font style="color:white;">War Thunder <br>Armour Penetration System</br> </font></h1></center>
+
+	<body>
+		<style>
+		body { background-color: black;}</style>
+
+		<h1 style="background-color: red;"><center><font style="color:white;">War Thunder <br>Armour Penetration System</br></font></h1></center>
 		
 		<p>                 </p>
 
