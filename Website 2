@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 
 <html>
+	<style>
+		.banner { 
+			background-image:
+			url(Images/WT\ Loading\ screen.jpg);
+		
+			}
+	</style>
+	
 	<head>
-		<style>	
-		body {
-		background-image:url('Images/WT\ Loading\ screen.jpg');
-			background-repeat:no-repeat;
-			background-size:cover;
-			background-position:top;
-		}
-		</style>
+		<div class="banner">
+  			<div>
+    			<h1 style="background-color: red;"><center><font style="color:white;">War Thunder Armour Penetration</h1></font></center>
+    			<h5>Sign up for free today</h5>
+    			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+  			</div>  
+		</div>
+	
 		<title> Taylor's website Assignment </title>
 		<!--Taylor Jacobi, September 19th 2023, CMP621A. HTML Website Assignment 2-->
 		
@@ -21,14 +29,11 @@
 
 	</head>
 
-	<body>
-		<style>
-		body { background-color: black;}</style>
-
-		<h1 style="background-color: red;"><center><font style="color:white;">War Thunder <br>Armour Penetration System</br></font></h1></center>
-		
-		<p>                 </p>
+	<body style="background-color: black;">
+		<p1><center><font style="color:white;" >RAAAAAAAAAAAAAAAAAAAAAA</p1><font></center>
+	
 
     
     </body>
+	
 </html>
