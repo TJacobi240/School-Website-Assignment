@@ -30,10 +30,57 @@
 	</head>
 
 	<body style="background-color: black;">
-		<p1><center><font style="color:white;" >RAAAAAAAAAAAAAAAAAAAAAA</p1><font></center>
-	
 
-    
+		<p1><center><font style="color:white;" >War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game for Windows, Linux, Mac, PlayStation®4, PlayStation®5, Xbox One and Xbox Series X|S dedicated to aviation, armoured vehicles, and naval vessels from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air and at sea, fighting with millions of other players from all over the world in an ever-evolving environment.</center>
+		<br><br>
+		In War Thunder, aircraft, attack helicopters, ground forces and naval vessels collaborate in realistic competitive battles. You can choose from over 2,000 vehicles from the early 20th century to the most modern combat units, in an extensive variety of combat situations many of which are exclusive. You can find yourself blasting your pursuers from a bomber turret, defending your teammates on the ground from an air raid with anti-aircraft guns, shooting down enemy aircraft with a firestorm from multiple rocket launchers, or trying to sink an enemy warship with a torpedo from a fast attack boat.</p1><font>
+		<br><br>
+
+		<p2>For the sake of simplicity we will focus on 3 tanks in specific, some of the most popular. The American M4A3E2 (Jumbo), German Tiger E, and the Russian IS-2.</p2>
+		<br><br>
+		<font size="4">
+		<table>
+			
+			<tr><b>
+				<th>===================================</th>
+				<th>===========M4A3E2(Jumbo)===========</th>
+				<th>=== Tiger E ===</th>
+				<th>=== IS-2 ===</th>
+			</font>	</b>
+			</tr>
+			<tr>
+				<td><b>===Hull Armour (Thickness and slope)====</b></td>
+				<td> <i>63.5 + 38.1 mm at 47°</i> (Front glacis) <br>  <i>114.3-139.7 mm</i> Transmission housing <br> <i>76.2 mm</i> on the top of either side<br><i> 38.1mm</i> at the bottom of the siding<br></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><b>===Turret Armour===</b></td>
+				<td><i>152.4 mm</i> (0-52°) Turret front<br>
+					<i>177.8 mm</i> (4-60°) Gun mantlet</td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td><b>===Gun Caliber and Highest Penetrating Shell===</b></td>
+				<td><i>76mm</i> Cannon,<br> shell with best Penn is <br><i>APCR(<mark><b><font size="2">Armor Peircing Composite Rigid)</b></mark></font></i> at <i>135mm</i> of Penetration.</td>
+				<td></td>
+				<td></td>
+
+			</tr>
+			<tr>
+			<td><b>===Images===</b></td>
+				<td><img src="Images/Jumbo.jpg" alt="Jumbo 76" width="350" ></td>
+				<td></td>
+				<td></td>
+			
+			
+			
+			</tr>
+		
+			
+		</table>
+		
     </body>
 	
 </html>
