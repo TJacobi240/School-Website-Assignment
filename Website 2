@@ -5,8 +5,17 @@
 		.banner { 
 			background-image:
 			url(Images/WT\ Loading\ screen.jpg);
-		
 			}
+		tr {
+		width:20;
+		}
+		table, th, td {
+  border: 1px solid red;
+}
+		sub{
+		font-size: smaller;
+		
+		}
 	</style>
 	
 	<head>
@@ -41,41 +50,74 @@
 		<font size="4">
 		<table>
 			
-			<tr><b>
-				<th>===================================</th>
-				<th>===========M4A3E2(Jumbo)===========</th>
-				<th>=== Tiger E ===</th>
-				<th>=== IS-2 ===</th>
+			<tr style=width:20;><b>
+				<th></th>
+				<th>========M4A3E2(Jumbo)========</th>
+				<th>======= Tiger E =======</th>
+				<th>======= IS-2 =======</th>
 			</font>	</b>
 			</tr>
 			<tr>
-				<td><b>===Hull Armour (Thickness and slope)====</b></td>
-				<td> <i>63.5 + 38.1 mm at 47°</i> (Front glacis) <br>  <i>114.3-139.7 mm</i> Transmission housing <br> <i>76.2 mm</i> on the top of either side<br><i> 38.1mm</i> at the bottom of the siding<br></td>
-				<td></td>
-				<td></td>
+				<td><b>Hull Armour (Thickness and slope)</b></td>
+
+				<td>
+				 <i>63.5 + 38.1 mm at 47°</i> (Front glacis) <br>  
+				 <i>114.3-139.7 mm</i> Transmission housing <br> 
+				 <i>76.2 mm</i> on the top of either side<br>
+				 <i> 38.1mm</i> at the bottom of the siding<br>
+				</td>
+				<td>
+					<i>102 mm</i> (9°) Front plate<br>
+					<i>82 mm</i> (80°) Front glacis<br>
+					<i>102 + 30 mm</i> (25°) Lower glacis<br>
+					<i>82 mm</i> Top<br>
+					<i>62 mm</i> Bottom<br>
+				</td>
+
+				<td>	
+					<i>120 mm</i> (27-34°) Driver viewport<br>
+					<i>60 mm</i> (74°) Front glacis<br>
+					<i>100 mm</i> (28-36°) Lower glacis<br>
+					<i>90 - 100 mm</i> (9-25°) Top<br>
+					<i>90 mm</i> Bottom<br>
+				</td>
 			</tr>
 			<tr>
-				<td><b>===Turret Armour===</b></td>
+				<td><b>=Turret Armour=</b></td>
 				<td><i>152.4 mm</i> (0-52°) Turret front<br>
 					<i>177.8 mm</i> (4-60°) Gun mantlet</td>
-				<td></td>
-				<td></td>
+				<td>
+					<i>100 mm</i> (7-72°)  Turret front<br>
+					<i>100 mm</i> (5-60°) Gun mantlet<br>
+				</td>
+
+				<td>
+					<i>100 mm</i> (7-72°) Turret front<br>
+					<i>100 mm</i> (5-60°) Gun mantlet<br>
+				</td>
 			</tr>
 			<tr>
-				<td><b>===Gun Caliber and Highest Penetrating Shell===</b></td>
-				<td><i>76mm</i> Cannon,<br> shell with best Penn is <br><i>APCR(<mark><b><font size="2">Armor Peircing Composite Rigid)</b></mark></font></i> at <i>135mm</i> of Penetration.</td>
-				<td></td>
-				<td></td>
+				<td>
+				<b>Gun Caliber and Best Penning Shell</b>
+				</td>
+
+				<td>
+				<i>76mm</i> Cannon,<br> shell with best Penn is <br><i>APCR<mark>(<b><font size="2">Armor Peircing Composite Rigid)</b></mark></font></i> at <i>135mm</i> of Penetration.
+				</td>
+
+				<td><i>88mm</i> Cannon, Shell is APCR however the <br>APCBC<mark>(<b><font size="2">>Armour Peircing Capped Balistic cap</font></b>)</mark> is better overall for the sacrifice in Penetration.
+				</td>
+
+				<td>
+				<i>122mm</i> Cannon, shell is APHEBC<mark>(<b><font size="2"></font>Armour Peircing High Explosive Balistic Capped</font></b>)</mark>. The shell causes major fragmenttation damage because of the Explosive filler.
+				</td>
 
 			</tr>
 			<tr>
 			<td><b>===Images===</b></td>
-				<td><img src="Images/Jumbo.jpg" alt="Jumbo 76" width="350" ></td>
-				<td></td>
-				<td></td>
-			
-			
-			
+				<td><a href="https://wiki.warthunder.com/M4A3E2_(76)_W"><img src="Images/Jumbo.jpg" alt="Jumbo 76" width="350" ></a></td>
+				<td><a href="https://wiki.warthunder.com/Tiger_E"><img src="Images/TigerE.jpg" alt="Tiger E" width="350"></td></a>
+				<td><a href="https://wiki.warthunder.com/IS-2"><img src="Images/IS 2.jpg" alt="IS-2" width="350"></td></a>
 			</tr>
 		
 			
