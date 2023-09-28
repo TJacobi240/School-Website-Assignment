@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 
 <html>
+<!--Taylor Jacobi, CMP621A, September 28, 2023 HTML Website Assignment 2
+
+
+Creates a series of CSS Style changes-->
 	<style>
 		.banner { 
 			background-image:
@@ -18,6 +22,7 @@
 		}
 	</style>
 	
+	<!--Opens the head and imputs the meta data as well as setting up the banner of the website using a div-->
 	<head>
 		<div class="banner">
   			<div>
@@ -28,7 +33,6 @@
 		</div>
 	
 		<title> Taylor's website Assignment </title>
-		<!--Taylor Jacobi, September 19th 2023, CMP621A. HTML Website Assignment 2-->
 		
 		<meta charset="UTF-8">
 		<meta name="description" content="---">
@@ -37,7 +41,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	</head>
-
+<!--opens the body sets the page background and spouts off the Game introduction from the official war thunder website-->
 	<body style="background-color: black;">
 
 		<p1><center><font style="color:white;" >War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game for Windows, Linux, Mac, PlayStation®4, PlayStation®5, Xbox One and Xbox Series X|S dedicated to aviation, armoured vehicles, and naval vessels from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air and at sea, fighting with millions of other players from all over the world in an ever-evolving environment.</center>
@@ -47,9 +51,14 @@
 
 		<p2>For the sake of simplicity we will focus on 3 tanks in specific, some of the most popular. The American M4A3E2 (Jumbo), German Tiger E, and the Russian IS-2.</p2>
 		<br><br>
+
+
+
+
+
 		<font size="4">
 		<table>
-			
+<!--Creates a table for all of the Tank data including names, Hull Armour, Turret Armour, and Cannon information-->
 			<tr style=width:20;><b>
 				<th></th>
 				<th>========M4A3E2(Jumbo)========</th>
@@ -96,23 +105,27 @@
 					<i>100 mm</i> (5-60°) Gun mantlet<br>
 				</td>
 			</tr>
+
 			<tr>
 				<td>
 				<b>Gun Caliber and Best Penning Shell</b>
 				</td>
 
 				<td>
-				<i>76mm</i> Cannon,<br> shell with best Penn is <br><i>APCR<mark>(<b><font size="2">Armor Peircing Composite Rigid)</b></mark></font></i> at <i>135mm</i> of Penetration.
-				</td>
-
-				<td><i>88mm</i> Cannon, Shell is APCR however the <br>APCBC<mark>(<b><font size="2">>Armour Peircing Capped Balistic cap</font></b>)</mark> is better overall for the sacrifice in Penetration.
+				<i>76mm</i> Cannon,<br> shell with best Penn is <br><i>APCR<mark>(<b><font size="2">Armor	Peircing Composite Rigid)</b></mark></font></i> at <i>135mm</i> of Penetration.
 				</td>
 
 				<td>
-				<i>122mm</i> Cannon, shell is APHEBC<mark>(<b><font size="2"></font>Armour Peircing High Explosive Balistic Capped</font></b>)</mark>. The shell causes major fragmenttation damage because of the Explosive filler.
+				<i>88mm</i> Cannon, Shell is APCR however the <br>APCBC<mark>(<b><font size="2">>Armour Peircing Capped Balistic cap</font></b>)</mark> is better overall for the sacrifice in Penetration.
+				</td>
+
+				<td>
+				<i>122mm</i> Cannon, shell is APHEBC<mark>(<b><font size="2"></font>Armour Peircing High Explosive Balistic Capped</font></b>)</mark>. The shell causes major fragmenttation damage because of the Explosive filler.  
 				</td>
 
 			</tr>
+
+
 			<tr>
 			<td><b>===Images===</b></td>
 				<td><a href="https://wiki.warthunder.com/M4A3E2_(76)_W"><img src="Images/Jumbo.jpg" alt="Jumbo 76" width="350" ></a></td>
@@ -123,6 +136,10 @@
 			
 		</table>
 		
+
+
+		<iframe src="https://www.youtube.com/watch?v=0dZrfYZadDA?autoplay=1&mute=1"  width="500" height="300">
+		</iframe>
     </body>
 	
 </html>
