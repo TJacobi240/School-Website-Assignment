@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+		<div class="banner">
+  			<div>
+    			<h1 style="background-color: red;"><center><font style="color:white;">War Thunder Shells </h1></font></center>
+    			<br><br><br><br><br><br><br><br><br><br><br><br><br>
+  			</div>  
+		</div>
+	
+		<title> Taylor's website Assignment </title>
+		
+		<meta charset="UTF-8">
+		<meta name="description" content="---">
+		<meta name="keywords" content="---">
+		<meta name="author" content="Taylor Jacobi">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+
+        <style>
+        .banner { 
+			background-image:
+			url(Images/APFSDS.jpg);
+			}
+            body {
+            background-color: black;
+            }
+            p {
+            color: white;
+            }
+        .button {
+ 	        border: white;
+  	        color: black;
+  	        padding: 15px 32px;
+  	        text-align: center;
+	        text-decoration: none;
+	        display: inline-block;
+	        font-size: 16px;
+	        margin: 4px 2px;
+	        cursor: pointer;
+        }
+        button {background-color: red;
+		font-size: large;
+        font-style: bold;}
+
+        </style>
+    </head>
+
+    <body>
+        <a href="VSCode Website Assignment2.html">
+		    <center><button class="button" type="button" ><b>Main Site</b></button></center>
+		</a>
+        <center><iframe width="500" height="300" type="video/mp4" src="Video/Ammo Shells.mp4"></iframe></center>
+    
+    
+    
+    
+    
+    
+    
+    </body>
+    
+    
+</html> 
