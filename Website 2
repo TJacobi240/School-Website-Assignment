@@ -15,13 +15,32 @@ Creates a series of CSS Style changes-->
 		}
 		table, th, td {
   border: 1px solid red;
-}
+		}
 		sub{
 		font-size: smaller;
 		
 		}
+
+		.button {
+ 	border: white;
+  	color: black;
+  	padding: 15px 32px;
+  	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+		}
+		button {background-color: red;
+		font-size: large;
+		font-style: bold;
+		}
+
 	</style>
 	
+
+
 	<!--Opens the head and imputs the meta data as well as setting up the banner of the website using a div-->
 	<head>
 		<div class="banner">
@@ -41,6 +60,8 @@ Creates a series of CSS Style changes-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	</head>
+
+
 <!--opens the body sets the page background and spouts off the Game introduction from the official war thunder website-->
 	<body style="background-color: black;">
 
@@ -116,11 +137,45 @@ Creates a series of CSS Style changes-->
 				</td>
 
 				<td>
-				<i>88mm</i> Cannon, Shell is APCR however the <br>APCBC<mark>(<b><font size="2">>Armour Peircing Capped Balistic cap</font></b>)</mark> is better overall for the sacrifice in Penetration.
+				<i>88mm</i> Cannon, Shell is APCR however the <br>APCBC<mark>(<b><font size="2">Armour Peircing Capped Balistic cap</font></b>)</mark> is better overall for the sacrifice in Penetration.
 				</td>
 
 				<td>
 				<i>122mm</i> Cannon, shell is APHEBC<mark>(<b><font size="2"></font>Armour Peircing High Explosive Balistic Capped</font></b>)</mark>. The shell causes major fragmenttation damage because of the Explosive filler.  
+				</td>
+
+			</tr>
+
+			<tr>
+				<td>List of Shells per Tank</td>
+				<td>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+				
+					</ul>
+				</td>
+
+				<td>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+				
+					</ul>
+				</td>
+
+				<td>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+				
+					</ul>
 				</td>
 
 			</tr>
@@ -137,9 +192,11 @@ Creates a series of CSS Style changes-->
 		</table>
 		
 
-
-		<iframe src="https://www.youtube.com/watch?v=0dZrfYZadDA?autoplay=1&mute=1"  width="500" height="300">
-		</iframe>
+		
+		
+		<a href="VSCode Website WT Shells.html">
+		<center><button class="button" type="button" ><b>Tank Shells</b></button></center>
+		</a>
     </body>
 	
 </html>
