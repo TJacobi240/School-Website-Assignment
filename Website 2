@@ -36,6 +36,18 @@ Creates a series of CSS Style changes-->
 		font-size: large;
 		font-style: bold;
 		}
+		h3{
+		text-align: center;
+		font-size: x-large;
+		background-color: red;
+		color: black;
+		font-style: bold;
+		}
+
+		.container {
+		display:flex;
+		align-items: center;
+		}
 
 	</style>
 	
@@ -49,6 +61,10 @@ Creates a series of CSS Style changes-->
     			<h5>Sign up for free today</h5>
     			<br><br><br><br><br><br><br><br><br><br><br><br><br>
   			</div>  
+		</div>
+		<div class="container">
+
+		
 		</div>
 	
 		<title> Taylor's website Assignment </title>
@@ -64,22 +80,46 @@ Creates a series of CSS Style changes-->
 
 <!--opens the body sets the page background and spouts off the Game introduction from the official war thunder website-->
 	<body style="background-color: black;">
+		<hr>
+		<div class="container">
+			
+			<a href="VSCode Website WT Shells.html" Target="_parent">
+			<center><button class="button" type="button" ><b>Tank Shells</b></button></center>
+			</a>
+			<a href="#Tank_Stats">
+			<center><button class="button" type="button" ><b>Tank Stats</b></button></center>
+			</a>
+			<a href="#Sloped_Armour">
+			<center><button class="button" type="button" ><b>Sloped Armour</b></button></center>
+			</a>
+			<a href="#Armour_Angling">
+			<center><button class="button" type="button" ><b>Armour Angling</b></button></center>
+			</a>
+		</div>
+		<hr>
+		<br>
+
+
 
 		<p1><center><font style="color:white;" >War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game for Windows, Linux, Mac, PlayStation®4, PlayStation®5, Xbox One and Xbox Series X|S dedicated to aviation, armoured vehicles, and naval vessels from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air and at sea, fighting with millions of other players from all over the world in an ever-evolving environment.</center>
 		<br><br>
 		In War Thunder, aircraft, attack helicopters, ground forces and naval vessels collaborate in realistic competitive battles. You can choose from over 2,000 vehicles from the early 20th century to the most modern combat units, in an extensive variety of combat situations many of which are exclusive. You can find yourself blasting your pursuers from a bomber turret, defending your teammates on the ground from an air raid with anti-aircraft guns, shooting down enemy aircraft with a firestorm from multiple rocket launchers, or trying to sink an enemy warship with a torpedo from a fast attack boat.</p1><font>
 		<br><br>
 
-		<p2>For the sake of simplicity we will focus on 3 tanks in specific, some of the most popular. The American M4A3E2 (Jumbo), German Tiger E, and the Russian IS-2.</p2>
+		
 		<br><br>
 
 
 
-
-
+		<hr>
+		<center><h3 id="Tanks_Stats">Tank Statistics</h3></center>
+		<hr>
+		<font size="4"><p2>For the sake of simplicity we will focus on 3 tanks in specific, some of the most popular. The American M4A3E2 (Jumbo), German Tiger E, and the Russian IS-2.<br><br></p2></font>
+		
 		<font size="4">
 		<table>
 <!--Creates a table for all of the Tank data including names, Hull Armour, Turret Armour, and Cannon information-->
+			
 			<tr style=width:20;><b>
 				<th></th>
 				<th>========M4A3E2(Jumbo)========</th>
@@ -190,13 +230,36 @@ Creates a series of CSS Style changes-->
 		
 			
 		</table>
-		
+
+
+		<hr>
+		<h3 id="Sloped_Armour">Sloped Armour</h3>
+		<hr>
+		<p>Sloped armour is effectively angling the armour of a tank on an angle rather than placed for a flat surface.
+		<br>
+		Slope armour presents the advantage of having a much thicker effective armour on a tanks for a lighter weight due to using a thinner armour plate. The sloped nature also increases the chance of the impacting shell to simply ricochet or deflect off, doing no effect to the armour. The disadvantage of the sloped armour was its more complicated manufacturing process and a reduction in internal space.</p>
+		<hr>
 
 		
-		
-		<a href="VSCode Website WT Shells.html">
-		<center><button class="button" type="button" ><b>Tank Shells</b></button></center>
-		</a>
+		<h3 id="Armour_Angling">Armour Angling</h3>
+		<hr>
+		<p>Outside of sloped armour, another way to improve the effective armour thickness on tanks is simply angling the armour towards the opponent. This means instead of sloping the armour in a vertical plane, instead angle sideways.
+			<br><br>
+		This gives another form of thickness as not only does the round have to pass through a plane of armour, but two plane of the same armour, which would boost the effective thickness. This is best seen in vertical-faced armoured tanks like the Tiger I tank. Though their vertical faced 100 mm front plate would only give 100 mm effectiveness, it was recommended in the Tigerfibel crew manual that a 45 degree diamond angle position would provide a front armour of nearly 130 mm of effective thickness.
+		</p>
+		<hr>
+		<h3 id="Spaced_Armour">Spaced Armour</h3>
+		<hr>
+
+		<p>Spaced armour helps against anti-tank rounds in a form of disruption and denial. Spaced armour was first widely used by the Germans in the form of "Schürzen", attaching metal sheets away from the base armour of their Panzers.<br><br> These metal sheets were intended to disrupt the kinetic energy of the Soviet 14.5 mm anti-tank rifles, which could penetrate the weaker side armour of their tanks. It does this by forcing much of the energy on the rifle round to be expelled on the Schürzen sheets, passing through and causing negligible damage on the base side armour. The Schürzen may also disrupt tank rounds as well, but the much greater kinetic energy of tank shells means that its disruption will be ineffective to all but the most sloped shots. Though there is a belief that the Schürzen plates were meant to stop HEAT rounds from shoulder-launched weapons, the plates were not intentionally designed for this task.</p>
+
+		<hr>
+
+
+
+
+
+		<a href="mailto:taja0508@cloud.edu.pe.ca">Email Me!</a>
     </body>
 	
 </html>
