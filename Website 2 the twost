@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>  
     <head>
+		
 		<div class="banner">
   			<div>
     			<h1 style="background-color: red;"><center><font style="color:white;">War Thunder Shells </h1></font></center>
@@ -32,7 +33,7 @@
         .button {
  	        border: white;
   	        color: black;
-  	        padding: 15px 32px;
+  	        padding: 16px 128px;
   	        text-align: center;
 	        text-decoration: none;
 	        display: inline-block;
@@ -51,12 +52,12 @@
         <a href="VSCode Website Assignment2.html" target="_blank">
 		    <center><button class="button" type="button" ><b>Main Site</b></button></center>
 		</a>
-        <center><iframe width="500" height="300" type="video/mp4" src="Video/Ammo Shells.mp4" ></iframe></center>
+        
 	
 		<p>Throughout the past century of tank development, a large range of ammunition types have been produced and seen combat. As time progressed, technology improved and rounds also improved in terms of lethality, accuracy and ballistic performance. Despite this, most rounds can be categorised under one of two primary categories: kinetic rounds and chemical rounds; and further under a variety of subcategories. <a href="https://wiki.warthunder.com/Tank_ammunition">wiki.warthunder.com</a></p>
     
     
-    
+    	<center><iframe width="500" height="300" type="video/mp4" src="Video/Ammo Shells.mp4" ></iframe></center>
     
     
     
