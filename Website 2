@@ -6,15 +6,16 @@
 
 Creates a series of CSS Style changes-->
 	<style>
-		.banner { 
-			background-image:
-			url(Images/WT\ Loading\ screen.jpg);
-			}
+	.banner { 
+	background-image:
+	url(Images/WT\ Loading\ screen.jpg);
+	}
+	
 		tr {
 		width:20;
 		}
 		table, th, td {
-  border: 1px solid red;
+        border: 1px solid red;
 		}
 		sub{
 		font-size: smaller;
@@ -22,15 +23,15 @@ Creates a series of CSS Style changes-->
 		}
 
 		.button {
- 	border: white;
-  	color: black;
-  	padding: 15px 32px;
-  	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
+ 			border: white;
+  			color: black;
+  			padding: 15px 32px;
+  			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
 		}
 		button {background-color: red;
 		font-size: large;
@@ -46,26 +47,26 @@ Creates a series of CSS Style changes-->
 
 		.container {
 		display:flex;
+		justify-content: center;
 		align-items: center;
 		}
-
 	</style>
 	
 
 
 	<!--Opens the head and imputs the meta data as well as setting up the banner of the website using a div-->
 	<head>
+
+		
+
 		<div class="banner">
   			<div>
     			<h1 style="background-color: red;"><center><font style="color:white;">War Thunder Armour Penetration</h1></font></center>
-    			<h5>Sign up for free today</h5>
+    			<h5></h5>
     			<br><br><br><br><br><br><br><br><br><br><br><br><br>
   			</div>  
 		</div>
-		<div class="container">
-
 		
-		</div>
 	
 		<title> Taylor's website Assignment </title>
 		
@@ -95,19 +96,26 @@ Creates a series of CSS Style changes-->
 			<a href="#Armour_Angling">
 			<center><button class="button" type="button" ><b>Armour Angling</b></button></center>
 			</a>
+			<a href="#Spaced_Armour">
+			<center><button class="button" type="button" ><b>Spaced Armour</b></button></center>
+			</a>
+			<a href="#ERA">
+			<center><button class="button" type="button" ><b>Explosive Reactive Armour</b></button></center>
+			</a>
 		</div>
 		<hr>
 		<br>
 
 
 
-		<p1><center><font style="color:white;" >War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game for Windows, Linux, Mac, PlayStation®4, PlayStation®5, Xbox One and Xbox Series X|S dedicated to aviation, armoured vehicles, and naval vessels from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air and at sea, fighting with millions of other players from all over the world in an ever-evolving environment.</center>
-		<br><br>
+		<p1><center><font style="color:white;" size="4" >War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game for Windows, Linux, Mac, PlayStation®4, PlayStation®5, Xbox One and Xbox Series X|S dedicated to aviation, armoured vehicles, and naval vessels from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air and at sea, fighting with millions of other players from all over the world in an ever-evolving environment.</center></font>
+		<br><br><br>
+		<font style="color:white;" >
 		In War Thunder, aircraft, attack helicopters, ground forces and naval vessels collaborate in realistic competitive battles. You can choose from over 2,000 vehicles from the early 20th century to the most modern combat units, in an extensive variety of combat situations many of which are exclusive. You can find yourself blasting your pursuers from a bomber turret, defending your teammates on the ground from an air raid with anti-aircraft guns, shooting down enemy aircraft with a firestorm from multiple rocket launchers, or trying to sink an enemy warship with a torpedo from a fast attack boat.</p1><font>
 		<br><br>
 
 		
-		<br><br>
+		
 
 
 
@@ -181,7 +189,7 @@ Creates a series of CSS Style changes-->
 				</td>
 
 				<td>
-				<i>122mm</i> Cannon, shell is APHEBC<mark>(<b><font size="2"></font>Armour Peircing High Explosive Balistic Capped</font></b>)</mark>. The shell causes major fragmenttation damage because of the Explosive filler.  
+				<i>122mm</i> Cannon, shell is APHEBC<mark>(<b><font size="2">Armour Peircing High Explosive Balistic Capped</font></b>)</mark>. The shell causes major fragmenttation damage because of the Explosive filler.  
 				</td>
 
 			</tr>
@@ -255,10 +263,20 @@ Creates a series of CSS Style changes-->
 
 		<hr>
 
+		<h3 id="ERA">Explosive Reactive Armour</h3>
+		<hr>
+		<p>Explosive reactive armour (ERA) works by using an explosive force to disrupt an incoming armour-piercing ammunition. The construction of ERA usually takes the form of individual tiles made up of "reactive elements", which are sandwiched explosives in between sheets of metal. These tiles would be used around vulnerable points of a tank to provide protection at these locations.
+		<br><br>
+		Though ERA provides good protection against HEAT ammunition, high-velocity kinetic penetrators like APDS and APFSDS penetrates too quickly for the explosive force to be effective against them. This was a problem in early ERA designs, but more modern ERA types have been able to resist these ammunition. Even so, ERA still has drawbacks in that each explosive tile were one-time-use against the incoming round, leaving the exposed tank metal underneath once expended. ERA also has become vulnerable to tandem-charge ammunition, which use a two-stage detonation sequence with the first charge destroying the ERA plate and the second penetrating the armour underneath the plate. Finally, the ERA plates rarely cover the entire tank sections due to contouring and moving parts, so the armour is still exposed in various degrees to be hit and penetrated.</p>
+		<hr>
 
 
 
+		<h3>Additional Info</h3>
+		<hr>
+		<p>All of the information is gathered from the official <a href="https://wiki.warthunder.com/Main_Page">War Thunder Wiki</a>. <br><br> Each Armour has their own strengths and weaknessess like ERA being strong against Chemical Rounds, so over the decades of innovation there has been combanations and new developmetnts, by far the most used today is ERA plating on top of Spaced Composite Armour. Spaced composite armour is spaced armour but with ceramic balls, steel barings or other various materials inbetween armour plates.</p>
 
+		<hr>
 		<a href="mailto:taja0508@cloud.edu.pe.ca">Email Me!</a>
     </body>
 	
