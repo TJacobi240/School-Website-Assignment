@@ -32,11 +32,14 @@ Creates a series of CSS Style changes-->
 			font-size: 16px;
 			margin: 4px 2px;
 			cursor: pointer;
+			
 		}
 		button {background-color: red;
 		font-size: large;
 		font-style: bold;
+
 		}
+		
 		h3{
 		text-align: center;
 		font-size: x-large;
@@ -47,8 +50,11 @@ Creates a series of CSS Style changes-->
 
 		.container {
 		display:flex;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
+		padding-left: 12px;
+		padding-right: 12px;
+
 		}
 	</style>
 	
